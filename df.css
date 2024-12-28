@@ -1,0 +1,42 @@
+.ad h2{
+         font-size: 32px;
+       }
+       .ad{
+         font-family: Arial;
+       }
+       span{
+         color:red;
+      }
+      h1, h2, h3, p{
+        text-align: center;
+      }
+      span{
+        color: red;
+      }
+      .nameandcost h2{
+        font-family: papyrus;
+        font-size: 30px;
+      }
+      button{
+        width:150px;
+        height: 60px;
+        background-color: orange;
+        font-size: 16px;
+        border-radius: 9px;
+      }
+      .order {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-10%);
+}
+a{
+  text-decoration:none;
+  color:red;
+}
