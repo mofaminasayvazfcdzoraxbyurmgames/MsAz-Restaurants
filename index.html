@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head>
   <title>MsAz Restaurants</title>
@@ -38,9 +38,32 @@
     .promoh22 a{
       text-decoration: underline;
     }
+     .language-switch {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+        .language-switch:hover {
+            background-color: #0056b3;
+        }
   </style>
 </head>
 <body>
+  <button class="language-switch" onclick="switchToRussian()">RU</button>
+
+    <script>
+        function switchToRussian() {
+            window.location.href = 'indexrus.html';
+        }
+      </script>
   <br><br>
   <div>
   <h2>WELCOME TO</h2>
@@ -61,8 +84,8 @@
   <div>
     <h3>Maybe you&apos;d like to visit</h3>
     <div style="background-color: yellow;padding:5px 0;text-align: center;">
-      <a href="https://www.codecademy.com/workspaces/673b185f6c461091c2951f1b"  style="display: inline-block;margin:30px;font-family:papyrus;">FC Dzoraxbyur</a>
-      <a href="<mofa>" style="display: inline-block;margin:30px;font-family:papyrus;">MOFA Webpage</a>
+      <a href="https://www.codecademy.com/workspaces/673b185f6c461091c2951f1b"  style="display: inline-block;margin:30px;font-family:papyrus;" target="_blank">FC Dzoraxbyur</a>
+      <a href="https://www.codecademy.com/workspaces/676daebfaf4735f0b48056e8" style="display: inline-block;margin:30px;font-family:papyrus;" target="_blank">MOFA Webpage</a>
     </div></div>
     <div><br>
       <h2 class="promoh21">OR</h2><br>
