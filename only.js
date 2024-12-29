@@ -1,6 +1,6 @@
 function validatePromoCode() {
             const correctCode1 = 'HAPPY2025'; 
-            const correctCode2 = '20MOFA25';
+            const correctCode2 = '20MSAZ25';
             const userCode = document.getElementById('promoCode').value;
             const message = document.getElementById('message');
             const sponsorCode = '#IAmASponsorOfMinasAyvaz';
